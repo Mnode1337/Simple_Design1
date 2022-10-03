@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/primary.css">
-    <title>Project1</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="athor" content="Stein">
+        <meta name="description" content="The Official website for The little Taco Shop">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/primary.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>The little Taco Shop</title>
+
+    </head>
+
+    <body>
+
+        <header class="header"><!-- we follow BEM naming conventien -->
+        <!-- header is the parent class for everything inside -->
+            <h1 class="header__h1">Welcome to The Little Taco Shop</h1>
+
+            <nav class="header__nav">
+
+                <ul class="header__ul">
+                    
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="hours.html">Hours</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About <abbr title="The Little Taco Shop">LTS</abbr>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            
+        </header>
+
+        <section class="hero">
+            <h2 class="hero__h2">Bienvenidos!</h2>
+            
+            <figure>
+
+                <img src="img/tacos_and_drink_1000x667.png" alt="Tacos and a Drink" title="We love tacos!" width="1000" height="667">
+                
+                <figcaption class="offscreen">Tacos and a Drink</figcaption>
+
+            </figure>
+
+        </section>
+
+        <main>
+
+            <article id="about">
+                <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+                <p>
+                    <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a <strong>love of tacos</strong> 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.
+                </p>
+                <aside>
+                    <h3>Taco Trivials</h3>
+                    <details>
+                        <summary>when did tacos first appear in the United States?</summary>
+                    </details>
+                </aside>
+            </article>
+
+            <article id="about">
+            
+            </article>
+
+            <article id="about">
+            
+            </article>
+
+            <article id="about">
+            
+            </article>
+
+        </main>
+        
+
+    </body>
+
 </html>
